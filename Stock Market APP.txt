@@ -1,0 +1,5 @@
+Stock Market APP:
+
+>>Tools:
+1.CodeRabbit
+2.TradingView
