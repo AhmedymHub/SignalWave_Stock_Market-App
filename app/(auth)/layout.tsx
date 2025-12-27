@@ -22,8 +22,8 @@ const Layout = ({ children }: { children : React.ReactNode}) => {
                             <p className="max-md:text-xs text-gray-500">Retail Investor</p>
                         </div>
                         <div className="flex items-center gap-0.5">
-                            {[1, 2, 3, 4, 5].map((start) => (
-                                <Image src="/assets/icons/star.svg" alt="Start" key={start} width={20} height={20} className='w-5 h-5' />
+                            {[1, 2, 3, 4, 5].map((star) => (
+                                <Image src="/assets/icons/star.svg" alt="Star" key={star} width={20} height={20} className='w-5 h-5' />
                             ))}
                         </div>
                     </div>
