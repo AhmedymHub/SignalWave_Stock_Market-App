@@ -1,5 +1,10 @@
 Stock Market APP:
 
 >>Tools:
-1.CodeRabbit
-2.TradingView
+1.MongoDB
+2.CodeRabbit
+3.TradingView
+
+Mongodb:
+Username: ahmedomarali24_db_user
+Password:UN6yl2TmOyq8Mxc5
