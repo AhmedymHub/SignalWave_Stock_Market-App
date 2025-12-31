@@ -4,6 +4,13 @@ Stock Market APP:
 1.MongoDB
 2.CodeRabbit
 3.TradingView
+4. Shadcn
+5.React-hook-form
+6.Figma
+7. Better-Auth (Modern Auth library)
+8. Inngest
+9. Nodemailer (our mail-man, tool for sending out emails)
+
 
 Mongodb:
 Username: ahmedomarali24_db_user
