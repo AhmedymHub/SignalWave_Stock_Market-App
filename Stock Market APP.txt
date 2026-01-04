@@ -8,7 +8,7 @@ Stock Market APP:
 5.React-hook-form
 6.Figma
 7. Better-Auth (Modern Auth library)
-8. Inngest
+8. Inngest ( Automation, Reliability, AI-powered personalization )
 9. Nodemailer (our mail-man, tool for sending out emails)
 
 
