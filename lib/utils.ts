@@ -137,3 +137,11 @@ export const getFormattedTodayDate = () => new Date().toLocaleDateString('en-US'
     day: 'numeric',
     timeZone: 'UTC',
 });
+
+/**
+ * Redacts sensitive information from a string, such as API tokens in URLs.
+ */
+export function redactSecrets(str: string): string {
+    if (!str) return str;
+    return str.replace(/(token|apiKey|api_key)=([^&]+)/gi, '$1=[REDACTED]');
+}

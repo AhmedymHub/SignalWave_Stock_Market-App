@@ -46,7 +46,7 @@ export async function getNews(symbols?: string[]): Promise<MarketNewsArticle[]> 
                         const articles = await fetchJSON<RawNewsArticle[]>(url, 300);
                         perSymbolArticles[sym] = (articles || []).filter(validateArticle);
                     } catch (e) {
-                        console.error('Error fetching company news for', sym, e instanceof Error ? e.message : 'Unknown error');
+                        console.error('Error fetching company news for', sym, e);
                         perSymbolArticles[sym] = [];
                     }
                 })
